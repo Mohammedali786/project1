@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ali's Fitness</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<style>
+    body {
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url(abs-1850926.jpg);
+        background-size: 2167px;
+        background-position: 0px 0px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .left {
+        display: inline-block;
+        /* border: 5px solid red; */
+        position: absolute;
+        left: 34px;
+        top: 8px;
+
+    }
+
+    .left img {
+        width: 75px;
+        filter: invert(100%);
+    }
+
+    .left div {
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .mid {
+        display: block;
+        width: 26%;
+        margin: 33px auto;
+        /* border: 5px solid green; */
+
+    }
+
+    .right {
+        position: absolute;
+        right: 34px;
+        top: 28px;
+        display: inline-block;
+        /* border: 5px solid yellow; */
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 15px;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 20px 4px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: grey;
+    }
+
+    .btn {
+        margin: 0px;
+        background-color: black;
+        color: white;
+        padding: 12px 30px;
+        font-size: 15px;
+        border: 3px solid grey;
+        border-radius: 16px;
+        cursor: pointer;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: 300;
+
+    }
+
+    .btn:hover {
+        background-color: grey;
+    }
+
+    .container {
+        border: 2px solid #9e9e9e;
+        margin: 95px 2px;
+        padding: 75px;
+        border-radius: 14px;
+        display: block;
+        width: 16%;
+    }
+
+    .btn2 {
+        margin: 4px -38px;
+        background-color: black;
+        color: white;
+        padding: 4px 22px;
+        font-size: 15px;
+        border: 3px solid grey;
+        border-radius: 16px;
+        cursor: pointer;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: 300;
+        width: 311px;
+        display: block;
+
+    }
+
+    .btn2:hover {
+        background-color: grey;
+    }
+
+    .formgroup input {
+
+        margin: 2px -38px;
+        display: block;
+        text-align: center;
+        width: 300px;
+        padding: 3px;
+        border: 2px solid grey;
+        border-radius: 15px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+    }
+
+    .container h1 {
+        margin: 2px -2px;
+        font-size: medium;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="—Pngtree—dumbbells_7036345.png" alt="">
+            <div>Ali's Fitness</div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">Contact Us </a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email Us</button>
+        </div>
+        <div class="container">
+            <h1>Join The Best Gym Of Chennai Now!</h1>
+            <form action="noaction.php"></form>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter Your Name">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter Your Age">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter Your Gender">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter Your Locality">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter Your Email">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter Your Phone Number">
+            </div>
+            <button class="btn2">Submit</button>
+        </div>
+
+    </header>
+</body>
+
+</html>
